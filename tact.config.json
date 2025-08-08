@@ -10,16 +10,6 @@
         "external": false
       },
       "mode": "full"
-    },
-    {
-      "name": "Test1",
-      "path": "contracts/test1.tact",
-      "output": "build/Test1",
-      "options": {
-        "debug": false,
-        "external": false
-      },
-      "mode": "full"
     }
   ]
 }

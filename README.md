@@ -24,3 +24,8 @@
 ### Add a new contract
 
 `npx blueprint create ContractName` or `yarn blueprint create ContractName`
+
+npm run monitor    
+npm run analyze     
+npm run bot         
+npm run check

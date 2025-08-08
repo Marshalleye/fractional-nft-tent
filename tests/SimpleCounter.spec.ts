@@ -11,7 +11,7 @@ describe('SimpleCounter', () => {
     beforeEach(async () => {
         blockchain = await Blockchain.create();
 
-        simpleCounter = blockchain.openContract(await SimpleCounter.fromInit(0n, 0n));
+        simpleCounter = blockchain.openContract(await SimpleCounter.fromInit(0n, 0n, (await blockchain.treasury('deployer')).address, 0n));
 
         deployer = await blockchain.treasury('deployer');
 
